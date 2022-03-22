@@ -1,0 +1,44 @@
+{
+  "name": "koa-ts",
+  "version": "1.0.0",
+  "description": "koa typescript",
+  "author": "君吟 <mj960920@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmj0920"
+  },
+  "scripts": {
+    "start": "tsc --build && node ./dist/app.js",
+    "dev": "nodemon --ext js,ts --exec npm start"
+  },
+  "license": "ISC",
+  "keywords": [
+    "koa",
+    "typescript",
+    "fs",
+    "koa-router",
+    "koa2-cors",
+    "raw-bod"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "async": "^3.2.2",
+    "glob": "^7.2.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "koa2-cors": "^2.0.6",
+    "nodemon": "^2.0.15",
+    "raw-body": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.4",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa2-cors": "^2.0.2",
+    "@types/raw-body": "^2.3.0",
+    "typescript": "^4.4.4"
+  }
+}
