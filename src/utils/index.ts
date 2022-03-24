@@ -1,8 +1,7 @@
 import { join } from "path";
 
 export const PORT = 5000;
-// export const CHUNK_SIZE = 10048576;
-export const CHUNK_SIZE = 1048576;
+export const CHUNK_SIZE = 10048576;
 
 export const chunksPath = join(process.cwd(), "chunks");
 export const filesPath = join(process.cwd(), "files");
